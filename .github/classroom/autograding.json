@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Infrastructure code is correct",
+      "setup": "",
+      "run": "dart test test/internal_test.dart",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
