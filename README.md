@@ -25,8 +25,7 @@ sites may be useful:
 Create a clone of the template repository within GitHub Classroom. Use the invitation link you got
 from Blackboard! Get the automated tests passing.
 
-**To pass the assignment approved you need to get at least 100 points.** (For example, do all the
-exercises in Part 1 and Part 2).
+**To pass the assignment approved you need to get at least 80 points.**
 
 ## Testing
 

@@ -62,6 +62,13 @@
       "run": "flutter test test/step_2_5.dart",
       "timeout": 10,
       "points": 20
+    },
+    {
+      "name": "Step 3: StreamBuilder",
+      "setup": "",
+      "run": "flutter test test/step_2_5.dart",
+      "timeout": 10,
+      "points": 20
     }
   ]
 }
