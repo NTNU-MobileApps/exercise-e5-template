@@ -5,14 +5,14 @@
       "setup": "",
       "run": "flutter test test/internal_test.dart",
       "timeout": 10,
-      "points": 1
+      "points": 0
     },
     {
       "name": "Step 1.1: longOperation() function",
       "setup": "",
       "run": "flutter test test/step_1_1.dart",
       "timeout": 10,
-      "points": 9
+      "points": 10
     },
     {
       "name": "Step 1.2: sleepMilliseconds() function",
