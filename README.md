@@ -146,6 +146,7 @@ all three books in the database.
 
 Your task is to read the `List<Book>` item from the `BookRepository.fetchAllBooksAsAList()` stream,
 and show the books inside the `MyBook` widget (as children for the `Column` that is already present
-there). P.S. For each book, create a `BookItem` widget. In the end the app should look something
-like this:
+there). P.S. For each book, create a `BookItem` widget.
+
+In the end the app should look something like this:
 <img alt="Reference image for the solution of part 3" src="reference_image.png" title="Reference image"/>
