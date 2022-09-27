@@ -33,7 +33,7 @@
       "setup": "",
       "run": "flutter test test/step_2_1.dart",
       "timeout": 10,
-      "points": 10
+      "points": 5
     },
     {
       "name": "Step 2.2: BookService.getBooks",
@@ -47,21 +47,21 @@
       "setup": "",
       "run": "flutter test test/step_2_3.dart",
       "timeout": 10,
-      "points": 30
+      "points": 20
     },
     {
       "name": "Step 2.4: Searching books",
       "setup": "",
       "run": "flutter test test/step_2_4.dart",
       "timeout": 10,
-      "points": 20
+      "points": 15
     },
     {
       "name": "Step 2.5: Bonus - synchronous counting of books",
       "setup": "",
       "run": "flutter test test/step_2_5.dart",
       "timeout": 10,
-      "points": 30
+      "points": 20
     }
   ]
 }
