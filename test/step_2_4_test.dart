@@ -4,7 +4,7 @@ import 'package:exercise_e5/solutions.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('Step 5: Search books by title', () {
+  test('Step 7: Search books by title', () {
     searchBooks("r", staticBookStorage);
     searchBooks("", staticBookStorage);
     searchBooks("w", [kuroseBook]);
