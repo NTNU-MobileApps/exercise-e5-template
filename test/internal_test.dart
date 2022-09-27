@@ -1,4 +1,4 @@
-import 'package:exercise_e5/infrastructure.dart';
+import 'package:exercise_e5/infrastructure/sleep.dart';
 import 'package:test/test.dart';
 import 'test_utilities.dart';
 
