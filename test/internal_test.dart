@@ -1,3 +1,5 @@
+import 'package:exercise_e5/infrastructure/book.dart';
+import 'package:exercise_e5/infrastructure/book_repository.dart';
 import 'package:exercise_e5/infrastructure/sleep.dart';
 import 'package:test/test.dart';
 import 'test_utilities.dart';
@@ -11,5 +13,11 @@ void main() {
     final double sleptSeconds =
         timeDifferenceMs(timeBeforeSleepMs, timeAfterSleepMs);
     expect(sleptSeconds, closeTo(sleepDuration, 0.1));
+  });
+  test('Internal: fetching all books at once', () async {
+    Stream<List<Book>> bookStream =
+        BookRepository.getInstance().fetchAllBooksAsAList();
+    List<Book> allBooks = await bookStream.first;
+    expect(allBooks, equals(staticBookStorage));
   });
 }

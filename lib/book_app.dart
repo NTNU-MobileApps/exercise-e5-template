@@ -8,6 +8,9 @@ void main() {
 }
 
 /// An app showing books from a library (imaginary database)
+// TODO - change this widget so that the BookItem widgets are
+//  created based on the Book objects received from
+//  the BookService.getBooks() stream!
 class BookApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -19,9 +22,6 @@ class BookApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // TODO - change this widget so that the BookItem widgets are
-              //  created based on the Book objects received from
-              //  the BookService.getBooks() stream!
               BookItem(spectorBook),
               BookItem(spectorBook),
               BookItem(spectorBook),

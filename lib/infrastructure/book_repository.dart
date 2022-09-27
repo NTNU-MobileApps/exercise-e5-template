@@ -25,6 +25,15 @@ class BookRepository {
     controller.close(); // Make sure we mark an end to the stream
     return controller.stream;
   }
+
+  /// Fetch all the books as a stream containing all the books as a single
+  /// object (the object itself is a list with all the books)
+  Stream<List<Book>> fetchAllBooksAsAList() {
+    final controller = StreamController<List<Book>>();
+    controller.add(staticBookStorage);
+    controller.close(); // Make sure we mark an end to the stream
+    return controller.stream;
+  }
 }
 
 // Static dummy books in the database
