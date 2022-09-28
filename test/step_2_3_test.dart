@@ -13,14 +13,3 @@ void main() {
     expect(receivedTitles, equals(expectedTitles));
   });
 }
-
-/// Count the number of books - initiate counting, call the onCounted
-/// callback when counting is done
-void countBooks() {
-  BookService.getInstance().countBooks(onCounted);
-}
-
-/// Called when the counting is done, check the final numbers
-void onCounted(count) {
-  expect(count, equals(staticBookStorage.length));
-}
